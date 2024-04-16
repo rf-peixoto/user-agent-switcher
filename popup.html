@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change User-Agent</title>
+    <style>
+        body {
+            background-color: #333;
+            color: #ddd;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        input, button {
+            color: #111;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>Current User-Agent: <span id="currentUserAgent">Loading...</span></div>
+    <input type="text" id="userAgentInput" placeholder="Enter User-Agent">
+    <button id="setUserAgent">Set User-Agent</button>
+    <button id="randomUserAgent">Random</button>
+    <button id="resetUserAgent">Reset to Default</button>
+    <script src="popup.js"></script>
+</body>
+</html>
